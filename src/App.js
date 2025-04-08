@@ -4,7 +4,7 @@ import QRCode from "react-qr-code";
 import "./App.css";
 
 function App() {
-  const [url, setUrl] = useState("http://192.168.29.139:3000");
+  const [url, setUrl] = useState("https://wedding-invitation-psi-one.vercel.app/");
 
   return (
     <div className="App">
