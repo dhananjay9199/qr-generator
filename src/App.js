@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>SATISH & MAYURI WEDDING INVITATION</h1>
+      <h1>SATISH ❤️ MAYURI WEDDING INVITATION</h1>
       <div className="qr-title">Scan Me</div>
       <div className="qr-wrapper">
         <QRCode value={url} />
