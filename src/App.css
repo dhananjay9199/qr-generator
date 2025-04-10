@@ -9,6 +9,25 @@
   pointer-events: none;
 }
 
+
+.qr-container:hover {
+  transform: scale(1.05);
+}
+
+.qr-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.qr-wrapper {
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
