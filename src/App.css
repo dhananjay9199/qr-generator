@@ -1,7 +1,14 @@
 .App {
   text-align: center;
   padding: 40px;
-  font-family: sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 2px solid black;
+  width: 70%;
+  margin: 15% auto;
+}
+
+.App>h1 {
+  color: rgb(230, 124, 31);
 }
 
 .App-logo {
@@ -53,6 +60,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
